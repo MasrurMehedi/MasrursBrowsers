@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:backgroundTint="@color/colorPrimaryDark"
+    tools:context="com.example.masror_mehedi.masrursbrowser.MainActivity">
+
+    <EditText
+        android:id="@+id/etxt_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Enter Your URL"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxt_url"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:drawableTop="@drawable/go1"
+        android:text="Go" />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="13dp"
+        android:drawableTop="@drawable/google1"
+        android:text="Google" />
+
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_google"
+        android:layout_alignBottom="@+id/btn_google"
+        android:layout_alignEnd="@+id/btn_go"
+        android:drawableTop="@drawable/facebook3"
+        android:text="Facebook" />
+
+    <Button
+        android:id="@+id/btn_you_tube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="22dp"
+        android:drawableTop="@drawable/youtube1"
+        android:text="You Tube" />
+
+    <Button
+        android:id="@+id/btn_espn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/btn_fb"
+        android:layout_below="@+id/btn_you_tube"
+        android:layout_marginTop="53dp"
+        android:drawableTop="@drawable/espn1"
+        android:text="ESPN" />
+
+    <Button
+        android:id="@+id/btn_gmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/btn_google"
+        android:layout_alignTop="@+id/btn_espn"
+        android:drawableTop="@drawable/gmail1"
+        android:text="Gmail" />
+
+    <Button
+        android:id="@+id/btn_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/btn_espn"
+        android:layout_alignBottom="@+id/btn_espn"
+        android:layout_alignEnd="@+id/btn_you_tube"
+        android:drawableTop="@drawable/twitter1"
+        android:text="Twitter" />
+
+    <Button
+        android:id="@+id/btn_portfolio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_espn"
+        android:layout_centerHorizontal="true"
+        android:drawableTop="@drawable/is"
+        android:text="Portfolio"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+</RelativeLayout>
